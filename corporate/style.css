@@ -1,0 +1,91 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+   padding: 20px 30px;
+   
+  
+}
+
+.header h2{
+color:white;
+font-size:35px;
+
+}
+
+.header ul{
+display: flex;
+gap:20px;
+list-style: none;
+
+
+}
+
+.header ul li a{
+text-decoration: none;
+color:white;
+
+}
+.header ul li a:hover{
+    border-bottom:3px solid red;
+}
+.background_image{
+ background: url('./alqur.jpg') no-repeat center center/cover; 
+ height: 500px;
+ text-align: center;
+ padding-top: 200px;
+  
+}
+.background_image p{
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.background_image h2{
+    color:blue;
+    font-size: 30px;
+}
+.button_new {
+padding: 1rem 2rem;
+background-color: aqua;
+color: beige;
+border-style: none;
+transition: background-color 0.3 sec;
+}
+
+.button_new:hover{
+background-color:aquamarine;
+transform: scaleY(1.5);
+
+}
+.our_service{
+    text-align: center;
+   
+}
+
+.our_service h2{
+    padding:30px;
+}
+.service_row{
+    display:flex;
+    justify-content: space-around;
+}
+
+.service_item{
+    background-color: aquamarine;
+    color:green;
+    transition: background-color 0.5 sec;
+}
+.service_item:hover{
+    background-color: brown;
+    transform: scaleY(1.5);
+}
